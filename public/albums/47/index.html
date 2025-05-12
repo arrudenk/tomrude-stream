@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head>
-	<meta name="generator" content="Hugo 0.147.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=64814&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=64814&amp;path=livereload" data-no-instant defer></script>
     <!-- head.html --><!-- meta.html -->
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>11</title>
+<title>${name} | 11</title>
 <meta name="author" content="">
 <meta name="description" content="11
 " >
-<meta name="keywords" content="home">
-<link rel="canonical" href="http://localhost:64814/">
+<link rel="canonical" href="http://localhost:64814/albums/47/">
 
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost:64814/index.xml" title="11" />
-    <!-- js.html -->
+<!-- js.html -->
     <script src="http://localhost:64814/js/hugo-brewm.min.js" defer></script><!-- css.html -->
     <link rel="stylesheet" href="http://localhost:64814/css/hugo-brewm.min.css">
 
@@ -26,9 +23,10 @@
         body {max-width: 786px; margin: auto; padding: 2rem;}
         img {max-width: 86vw;}
     </style>
-    <!-- list.html [head] -->
+    
+    
 </head>
-<body  id="home" >
+<body  id="album" >
     <!-- header.html -->
 <header class="pagewidth">
     <div id="background-header" class="background" aria-hidden="true">
@@ -36,7 +34,7 @@
     </div>
     
     <nav aria-label="Bypass">
-        <a id="to-content" class="underline" href="#list-posts" aria-label="Skip to Main Content">
+        <a id="to-content" class="underline" href="#content" aria-label="Skip to Main Content">
             <span>Skip to Main Content</span>
             <kbd class="key" aria-hidden="true">c</kbd>
             <span class="screening" aria-hidden="true"></span>
@@ -101,39 +99,80 @@
     </details>
 </header>
     
-        <!-- carousel.html -->
     <!-- [main] baseof.html -->
-    <main id="home">
+    <main id="page">
         <!-- main/header.html -->
+        <header class="pagewidth">
+            
+            <!-- menu.html -->
+    <menu role="presentation">
+        <li>
+            <a id="print-button" class="hide" href="javascript:window.print()" title="Print" role="button" aria-label="Print">
+                <span class="t" role="tooltip">Print</span>
+            </a>
+        </li>
+        <li>
+            <a id="navigatorShare" href="#share" title="Share" role="button" aria-label="Share">
+                <span class="t" role="tooltip">Share</span>
+            </a>
+        </li>
+        <li>
+            <a id="copyPermalink"  href="javascript:navigator.clipboard.writeText(window.location.href)" title="Copy URL" role="button" aria-label="Copy URL">
+                <span id="copy" class="t" role="tooltip">Copy URL</span>
+                <span id="isCopying" style="display: none;">Copying...</span>
+                <span id="copyText" style="display: none;">Copy URL</span>
+            </a>
+        </li>
+    </menu>
+    <button id="back" class="hide" type="button" onclick="history.back();" aria-label="Go Back">
+        <span class="t" role="tooltip">Go Back</span>
+    </button>
+            
+                <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-breadcrumb" open>
+    <summary id="breadcrumb" tabindex="-1">
+        <span>Breadcrumb</span>
+    </summary>
+        <nav aria-labelledby="breadcrumb">
+            <ul role="presentation" class="breadcrumb">
+                    <!-- breadcrumb.html -->
+        <li>
+            <a href="http://localhost:64814/albums/" aria-current="true">Albums
+            </a>
+        </li>
+    <li>
+        <a href="" aria-current="page" tabindex="-1">${name}
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+        </header>
         <div id="top" role="presentation">
             
-                <div id="list-taxonomy" class="carousel">
-                    <div class="carousel__viewport">
-                        
-            <!-- listing.html -->
-                    </div>
-                </div>
-                
-    <!-- hero.html -->
-    <div class="hero">
-        <div class="hero__content"><p>11</p>
-
-        </div>
-    </div>
-
         </div>
         
+    <article id="main-article" class="pagewidth sf"
+        role="document" aria-labelledby="title"
+            data-pagefind-ignore="all">
+        <header aria-labelledby="title">
             
-            <section id="list-posts" class="pagewidth">
-                <header  class="section-title">
-                    <strong>
-                                Recent Posts
-                    </strong>
-                </header>
-                    <div role="feed" aria-busy="false">
-                    </div>
-                    
-            </section>
+            <!-- title.html -->
+        <h1 id="title"
+            data-bionRead-safe
+            >${name}</h1>
+        </header>
+        <!-- audio.html -->
+        <section aria-labelledby="Title" id="content" data-bionRead-safe>
+                <p>11</p>
+
+        </section>
+    </article>
+    <hr class="hide" style="margin: 1in 0;">
+    <div id="contentinfo" class="pagewidth" role="contentinfo" data-pagefind-ignore="all">
+    </div>
+    
+        
         <!-- main/footer.html -->
     
     </main>
@@ -192,6 +231,8 @@
 </footer>
 
     
+    <!-- [post] single.html -->
+    <div id="bionReadSnapshot" hidden></div>
     <!-- [background] baseof.html -->
     <div id="background-body"
         role="presentation" aria-hidden="true">

@@ -6,3 +6,23 @@ theme        = "hugo-brewm"
 [params]
   galleryDir = "photos"
   videoDir   = "videos"
+[menu]
+  [[menu.main]]
+    name   = "11"
+    url    = "/"
+    weight = 1
+
+  [[menu.main]]
+    name   = "New Year Berlin"
+    url    = "/albums/new-year-berlin/"
+    weight = 2
+
+  [[menu.main]]
+    name   = "Shared"
+    url    = "/albums/shared/"
+    weight = 3
+
+  [[menu.main]]
+    name   = "47"
+    url    = "/albums/47/"
+    weight = 4
