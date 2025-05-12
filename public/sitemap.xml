@@ -2,31 +2,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:64814/albums/47/</loc>
+    <loc>https://tomrude.stream/albums/47/</loc>
     
     </url>
   <url>
-    <loc>http://localhost:64814/albums/new-year-berlin/</loc>
+    <loc>https://tomrude.stream/albums/new-year-berlin/</loc>
     
     </url>
   <url>
-    <loc>http://localhost:64814/albums/shared/</loc>
+    <loc>https://tomrude.stream/albums/shared/</loc>
     
     </url>
   <url>
-    <loc>http://localhost:64814/</loc>
+    <loc>https://tomrude.stream/</loc>
     
     </url>
   <url>
-    <loc>http://localhost:64814/albums/</loc>
+    <loc>https://tomrude.stream/albums/</loc>
     
     </url>
   <url>
-    <loc>http://localhost:64814/categories/</loc>
+    <loc>https://tomrude.stream/categories/</loc>
     
     </url>
   <url>
-    <loc>http://localhost:64814/tags/</loc>
+    <loc>https://tomrude.stream/tags/</loc>
     
     </url>
 </urlset>
