@@ -1,3 +1,5 @@
 [build]
+  # Override any UI base-dir and build from the repo root
+  base    = "."
   command = "hugo"
   publish = "public"
