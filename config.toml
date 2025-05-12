@@ -1,0 +1,8 @@
+baseURL      = "https://tomrude.stream/"
+languageCode = "en-us"
+title        = "11"
+theme        = "hugo-brewm"
+
+[params]
+  galleryDir = "photos"
+  videoDir   = "videos"
