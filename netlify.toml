@@ -1,9 +1,10 @@
 [build]
-  # build from the repo root:
   base    = "."
   command = "hugo"
   publish = "public"
 
 [build.environment]
-  # install the same Hugo version you use locally
-  HUGO_VERSION = "0.147.2"
+  # match your local Hugo version
+  HUGO_VERSION           = "0.147.2"
+  # ensure Netlify clones your theme submodule
+  GIT_SUBMODULE_STRATEGY = "recursive"
