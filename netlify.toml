@@ -6,4 +6,4 @@
 
 [build.environment]
   # install the same Hugo version you use locally
-  HUGO_VERSION = "0.145.0"
+  HUGO_VERSION = "0.147.2+extended+withdeploy"
