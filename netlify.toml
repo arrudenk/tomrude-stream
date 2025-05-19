@@ -1,5 +1,9 @@
 [build]
-  # Override any UI base-dir and build from the repo root
+  # build from the repo root:
   base    = "."
   command = "hugo"
   publish = "public"
+
+[build.environment]
+  # install the same Hugo version you use locally
+  HUGO_VERSION = "0.145.0"
